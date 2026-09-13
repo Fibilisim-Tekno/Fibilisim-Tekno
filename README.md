@@ -1,84 +1,69 @@
 # Fikret İmamoğlu
 
-**Full-stack developer — TypeScript & Python.** I build news and media
-automation, AI/LLM tooling around the Model Context Protocol, and I take on
-freelance work.
+<p align="left">
+  <a href="https://www.npmjs.com/~fibilisim"><img src="https://img.shields.io/badge/NPM-Author-cb3837?style=flat-square&logo=npm&logoColor=white" alt="NPM Author" /></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Model_Context_Protocol-MCP-8A2BE2?style=flat-square" alt="MCP" />
+</p>
+
+**Open Source Maintainer & Full-Stack Developer** focusing on TypeScript, Python, LLM tooling, and Model Context Protocol (MCP) integrations.
 
 ---
 
-### What I work on
+### 📦 Maintained Open Source Projects
 
-- **TypeScript & Python** — web services, automation pipelines, CLI tools.
-- **AI / LLM tooling** — MCP servers and clients, agent integrations, wiring
-  models into real workflows instead of demos.
-- **News & media automation** — headline processing, feed handling, web push
-  delivery.
+#### 🚀 [`trtext`](https://github.com/Fibilisim-Tekno/trtext)
+[![npm version](https://img.shields.io/npm/v/trtext?color=blue&style=flat-square)](https://www.npmjs.com/package/trtext)
+[![CI](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/Fibilisim-Tekno/trtext?style=flat-square)](https://github.com/Fibilisim-Tekno/trtext/blob/main/LICENSE)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](https://www.npmjs.com/package/trtext)
 
-### Open source
+Turkish-correct lowercase, uppercase, case-folding, URL slugs, and locale-aware collation for JavaScript & TypeScript. Zero external dependencies, deterministic behavior across all runtimes without requiring host ICU data.
+* **Latest Release:** [`v0.1.1`](https://github.com/Fibilisim-Tekno/trtext/releases/tag/v0.1.1)
+* **Install:** `npm i trtext`
 
-I contribute upstream to projects I actually use, and I document what I change:
+---
 
-- [`SpotifyScraper`](https://github.com/AliAkhtari78/SpotifyScraper) —
-  [#161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161): MCP host
-  setup docs for Cursor and Cline, including the streamable-http transport.
-- [`SpotifyScraper`](https://github.com/AliAkhtari78/SpotifyScraper) —
-  [#162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162): migration
-  guide for the Spotify Web API endpoints deprecated in 2024, with an honest
-  note on what cannot be replaced.
+### 🛠️ Upstream Contributions
 
-I review every change against the source before I open a pull request, and I
-say so in the description. If something in a patch of mine is wrong, tell me
-and I will fix it.
+Active contributor to tools and libraries I rely on:
 
-### Currently
+- **[`SpotifyScraper`](https://github.com/AliAkhtari78/SpotifyScraper)**
+  - [#161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161): Added MCP host setup guide for Cursor and Cline, including streamable-HTTP transport documentation.
+  - [#162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162): Authored comprehensive migration guide for Spotify Web API endpoints deprecated in 2024.
 
-Publishing and documenting my own projects one repository at a time, starting
-with the tools I already run in production. Watch this profile — new releases
-land here.
+---
 
-### Open to work
+### 🔭 Focus & Architecture
 
-Available for freelance and contract work: backend services, automation, MCP
-and LLM integrations.
+- **AI & LLM Tooling:** Building MCP servers, agent context systems, and cost/token optimization pipelines.
+- **Automation & APIs:** Resilient web services, headline/feed processing engines, and push delivery.
+- **Developer Experience:** CLI tools, deterministic text processors, and clean TypeScript/Python architectures.
 
-📫 **coldbira@gmail.com**
+---
+
+### 📬 Get in Touch
+
+- **Email:** [coldbira@gmail.com](mailto:coldbira@gmail.com)
+- **NPM Profile:** [@fibilisim](https://www.npmjs.com/~fibilisim)
 
 ---
 
 <details>
 <summary>🇹🇷 Türkçe</summary>
 
-### Ne yapıyorum
+### 📦 Geliştirdiğim Açık Kaynak Projeler
 
-- **TypeScript & Python** — web servisleri, otomasyon süreçleri, komut satırı
-  araçları.
-- **AI / LLM araçları** — MCP sunucu ve istemcileri, ajan entegrasyonları;
-  demo değil, gerçek iş akışlarına bağlanan çözümler.
-- **Haber & medya otomasyonu** — başlık işleme, akış yönetimi, web push
-  bildirim altyapısı.
+- **[`trtext`](https://github.com/Fibilisim-Tekno/trtext)**: JavaScript ve TypeScript için sıfır bağımlılıklı Türkçe metin işleme kütüphanesi (küçük/büyük harf dönüşümleri, slug oluşturucu, alfabetik sıralama). Host ICU bağımlılığı olmadan her ortamda deterministik çalışır.
 
-### Açık kaynak
+### 🛠️ Katkıda Bulunduğum Projeler
 
-Kullandığım projelere katkı veriyorum ve yaptığım değişikliği belgeliyorum:
+- **[`SpotifyScraper` #161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161)** — Cursor ve Cline için MCP kurulum dokümantasyonu.
+- **[`SpotifyScraper` #162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162)** — Spotify'ın 2024'te kaldırdığı uç noktalar için geçiş rehberi.
 
-- [`SpotifyScraper` #161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161)
-  — Cursor ve Cline için MCP kurulum dokümantasyonu.
-- [`SpotifyScraper` #162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162)
-  — Spotify'ın 2024'te kaldırdığı uç noktalar için geçiş rehberi.
+### 📬 İletişim
 
-Her değişikliği pull request açmadan önce kaynak kodla karşılaştırıyorum.
-Bir hatam varsa söyleyin, düzeltirim.
-
-### Şu sıralar
-
-Kendi projelerimi tek tek belgeleyip yayınlıyorum. Yeni sürümler bu profilde
-duyurulacak.
-
-### İş birliği
-
-Freelance ve proje bazlı iş alıyorum: backend servisler, otomasyon, MCP ve
-LLM entegrasyonları.
-
-📫 **coldbira@gmail.com**
-
+- **E-posta:** coldbira@gmail.com
 </details>
