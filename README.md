@@ -14,6 +14,16 @@
 
 ### 📦 Maintained Open Source Projects
 
+#### ⚡ [`EnvForge`](https://github.com/Fibilisim-Tekno/envforge)
+[![npm version](https://img.shields.io/npm/v/envforge?color=blue&style=flat-square)](https://www.npmjs.com/package/envforge)
+[![CI](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/Fibilisim-Tekno/envforge?style=flat-square)](https://github.com/Fibilisim-Tekno/envforge/blob/main/LICENSE)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](https://www.npmjs.com/package/envforge)
+
+Zero-config local SaaS mock engine and environment synthesizer. Parses `.env.example`, synthesizes realistic dummy tokens, and launches a lightweight local mock server intercepting OpenAI, Anthropic, Stripe, and Email calls.
+* **Latest Release:** [`v0.1.0`](https://github.com/Fibilisim-Tekno/envforge/releases/tag/v0.1.0)
+* **CLI:** `npx envforge`
+
 #### 🚀 [`trtext`](https://github.com/Fibilisim-Tekno/trtext)
 [![npm version](https://img.shields.io/npm/v/trtext?color=blue&style=flat-square)](https://www.npmjs.com/package/trtext)
 [![CI](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml)
