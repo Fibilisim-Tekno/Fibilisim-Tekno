@@ -1,79 +1,92 @@
 # Fikret İmamoğlu
 
 <p align="left">
-  <a href="https://www.npmjs.com/~fibilisim"><img src="https://img.shields.io/badge/NPM-Author-cb3837?style=flat-square&logo=npm&logoColor=white" alt="NPM Author" /></a>
+  <a href="https://www.npmjs.com/~fibilisim"><img src="https://img.shields.io/badge/NPM-@fibilisim-CB3837?style=flat-square&logo=npm&logoColor=white" alt="NPM" /></a>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Model_Context_Protocol-MCP-8A2BE2?style=flat-square" alt="MCP" />
+  <img src="https://img.shields.io/badge/MCP-Agent_Tooling-6E56CF?style=flat-square" alt="MCP and Agent Tooling" />
+  <img src="https://img.shields.io/badge/Open_Source-Maintainer-2EA44F?style=flat-square" alt="Open Source Maintainer" />
 </p>
 
-**Open Source Maintainer & Full-Stack Developer** focusing on TypeScript, Python, LLM tooling, and Model Context Protocol (MCP) integrations.
+Open-source maintainer and contributor focused on **AI/agent tooling, TypeScript developer infrastructure, MCP integrations, and practical verification workflows**.
+
+I build small, auditable tools and contribute tested fixes upstream when I find concrete problems.
 
 ---
 
-### 📦 Maintained Open Source Projects
+## 🚧 Current Work
 
-#### ⚡ [`EnvForge`](https://github.com/Fibilisim-Tekno/envforge)
-[![npm version](https://img.shields.io/npm/v/@fibilisim/envforge?color=blue&style=flat-square)](https://www.npmjs.com/package/@fibilisim/envforge)
+### [`LeanAgents`](https://github.com/Fibilisim-Tekno/leanagents) — selective coding workflows
+
+[![CI](https://github.com/Fibilisim-Tekno/leanagents/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/leanagents/actions/workflows/ci.yml)
+![Version](https://img.shields.io/badge/version-v0.1.0--alpha.1-orange?style=flat-square)
+[![License](https://img.shields.io/github/license/Fibilisim-Tekno/leanagents?style=flat-square)](https://github.com/Fibilisim-Tekno/leanagents/blob/main/LICENSE)
+
+A selective agent/context workflow for coding tasks. Instead of loading every role and rule for every task, LeanAgents routes explicit task facts, prepares only the needed instruction set, and records review/test evidence.
+
+**Current alpha includes:** task routing, context preparation, TypeScript review, bounded fix/apply flow, token-budget checks, benchmark tooling, and editor bundles for **Codex, Kiro, Cursor, and Antigravity**.
+
+Codex bootstrap loading and the bounded review/fix flow have been exercised with the real Codex CLI. Other editor targets currently have format-level validation and remain on the roadmap for native runtime verification.
+
+---
+
+## 📦 Maintained Open Source Projects
+
+### [`EnvForge`](https://github.com/Fibilisim-Tekno/envforge)
+
+[![npm version](https://img.shields.io/npm/v/@fibilisim/envforge?style=flat-square)](https://www.npmjs.com/package/@fibilisim/envforge)
 [![CI](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml)
-[![license](https://img.shields.io/github/license/Fibilisim-Tekno/envforge?style=flat-square)](https://github.com/Fibilisim-Tekno/envforge/blob/main/LICENSE)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](https://www.npmjs.com/package/@fibilisim/envforge)
+[![License](https://img.shields.io/github/license/Fibilisim-Tekno/envforge?style=flat-square)](https://github.com/Fibilisim-Tekno/envforge/blob/main/LICENSE)
 
-Zero-config local SaaS mock engine and environment synthesizer. Parses `.env.example`, synthesizes realistic dummy tokens, and launches a lightweight local mock server intercepting OpenAI, Anthropic, Stripe, and Email calls.
-* **Latest Release:** [`v0.1.0`](https://github.com/Fibilisim-Tekno/envforge/releases/tag/v0.1.0)
-* **CLI:** `npx @fibilisim/envforge`
+Zero-config local SaaS mock engine and environment synthesizer. It can generate local development credentials and mock common service surfaces so repositories can be exercised without real API keys or paid accounts.
 
-#### 🚀 [`trtext`](https://github.com/Fibilisim-Tekno/trtext)
-[![npm version](https://img.shields.io/npm/v/trtext?color=blue&style=flat-square)](https://www.npmjs.com/package/trtext)
+`npx @fibilisim/envforge`
+
+### [`trtext`](https://github.com/Fibilisim-Tekno/trtext)
+
+[![npm version](https://img.shields.io/npm/v/trtext?style=flat-square)](https://www.npmjs.com/package/trtext)
 [![CI](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/trtext/actions/workflows/ci.yml)
-[![license](https://img.shields.io/github/license/Fibilisim-Tekno/trtext?style=flat-square)](https://github.com/Fibilisim-Tekno/trtext/blob/main/LICENSE)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](https://www.npmjs.com/package/trtext)
+[![License](https://img.shields.io/github/license/Fibilisim-Tekno/trtext?style=flat-square)](https://github.com/Fibilisim-Tekno/trtext/blob/main/LICENSE)
 
-Turkish-correct lowercase, uppercase, case-folding, URL slugs, and locale-aware collation for JavaScript & TypeScript. Zero external dependencies, deterministic behavior across all runtimes without requiring host ICU data.
-* **Latest Release:** [`v0.1.1`](https://github.com/Fibilisim-Tekno/trtext/releases/tag/v0.1.1)
-* **Install:** `npm i trtext`
+Zero-dependency Turkish text utilities for JavaScript/TypeScript: locale-correct case conversion, folding, slugs, and collation.
 
----
-
-### 🛠️ Upstream Contributions
-
-Active contributor to tools and libraries I rely on:
-
-- **[`SpotifyScraper`](https://github.com/AliAkhtari78/SpotifyScraper)**
-  - [#161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161): Added MCP host setup guide for Cursor and Cline, including streamable-HTTP transport documentation.
-  - [#162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162): Authored comprehensive migration guide for Spotify Web API endpoints deprecated in 2024.
+`npm i trtext`
 
 ---
 
-### 🔭 Focus & Architecture
+## 🛠️ Selected Upstream Contributions
 
-- **AI & LLM Tooling:** Building MCP servers, agent context systems, and cost/token optimization pipelines.
-- **Automation & APIs:** Resilient web services, headline/feed processing engines, and push delivery.
-- **Developer Experience:** CLI tools, deterministic text processors, and clean TypeScript/Python architectures.
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [`ClaudeLint`](https://github.com/pdugan20/claudelint) | [#222](https://github.com/pdugan20/claudelint/pull/222) — fixed SessionStart hook paths containing spaces/non-ASCII characters and added regression coverage | ✅ Merged |
+| [`ECC`](https://github.com/affaan-m/ECC) | [#3111](https://github.com/affaan-m/ECC/pull/3111) — MCP `notifications/initialized` metadata compatibility with six regression cases | 🟡 Open |
+| [`KTX`](https://github.com/Kaelio/ktx) | [#368](https://github.com/Kaelio/ktx/pull/368) — TTY/raw-mode fix so `ktx ingest` remains interruptible with Ctrl-C, plus regression tests | 🟡 Open |
+| [`LangWatch`](https://github.com/langwatch/langwatch) | [#8125](https://github.com/langwatch/langwatch/pull/8125) — distinguish unevaluated completed runs from actual passes, with tests | 🟡 Open |
+| [`SpotifyScraper`](https://github.com/AliAkhtari78/SpotifyScraper) | [#161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161), [#162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162) — MCP host setup and migration documentation | 🟡 Open |
+
+I prefer scoped contributions with a reproducible failure, explicit limits, and regression coverage where practical.
 
 ---
 
-### 📬 Get in Touch
+## 🔭 Focus
 
+- **AI & agent tooling:** selective context, code review, MCP, verification workflows
+- **Developer experience:** CLI tools, local-first infrastructure, deterministic behavior
+- **Testing & evaluation:** regression tests, benchmark methodology, measurable limits
+- **Open source:** maintain small tools and contribute focused fixes upstream
+
+---
+
+## 📬 Contact
+
+- **NPM:** [@fibilisim](https://www.npmjs.com/~fibilisim)
 - **Email:** [coldbira@gmail.com](mailto:coldbira@gmail.com)
-- **NPM Profile:** [@fibilisim](https://www.npmjs.com/~fibilisim)
-
----
 
 <details>
-<summary>🇹🇷 Türkçe</summary>
+<summary>🇹🇷 Türkçe kısa özet</summary>
 
-### 📦 Geliştirdiğim Açık Kaynak Projeler
+Açık kaynak geliştirici ve maintainer olarak ağırlıklı olarak **AI ajan araçları, TypeScript, MCP, CLI ve doğrulama/test altyapıları** üzerinde çalışıyorum.
 
-- **[`trtext`](https://github.com/Fibilisim-Tekno/trtext)**: JavaScript ve TypeScript için sıfır bağımlılıklı Türkçe metin işleme kütüphanesi (küçük/büyük harf dönüşümleri, slug oluşturucu, alfabetik sıralama). Host ICU bağımlılığı olmadan her ortamda deterministik çalışır.
+Şu an ana geliştirme projem [`LeanAgents`](https://github.com/Fibilisim-Tekno/leanagents). Bunun yanında [`EnvForge`](https://github.com/Fibilisim-Tekno/envforge) ve [`trtext`](https://github.com/Fibilisim-Tekno/trtext) projelerini sürdürüyorum; farklı açık kaynak projelerine de testli hata düzeltmeleri ve dokümantasyon katkıları gönderiyorum.
 
-### 🛠️ Katkıda Bulunduğum Projeler
-
-- **[`SpotifyScraper` #161](https://github.com/AliAkhtari78/SpotifyScraper/pull/161)** — Cursor ve Cline için MCP kurulum dokümantasyonu.
-- **[`SpotifyScraper` #162](https://github.com/AliAkhtari78/SpotifyScraper/pull/162)** — Spotify'ın 2024'te kaldırdığı uç noktalar için geçiş rehberi.
-
-### 📬 İletişim
-
-- **E-posta:** coldbira@gmail.com
 </details>
